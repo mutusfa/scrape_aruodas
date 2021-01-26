@@ -33,6 +33,15 @@ pytest
 scrapy check
 ```
 
+You can also use provided Dockerfile
+```
+git clone git@github.com:mutusfa/scrape_aruodas.git
+cd scrape_aruodas
+docker build . -t scrape_aruodas
+# start scraping
+# docker run -it
+```
+
 ## Usage
 
 ```
